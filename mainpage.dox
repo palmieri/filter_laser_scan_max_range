@@ -1,0 +1,29 @@
+/**
+\mainpage
+\htmlinclude manifest.html
+
+\b filter_laser_scan_max_range filters
+
+ 
+filter_laser_scan_max_range filters a LaserScan msg by changing its range values if they are set 
+to the maximum value allowed. This is extremely useful for Costmap2D, where the raytrace algorithm may
+fail to clear obstacles if their related laser scan range has associated a max value
+
+
+
+
+\section codeapi Code API
+
+<!--
+Provide links to specific auto-generated API documentation within your
+package that is of particular interest to a reader. Doxygen will
+document pretty much every part of your code, so do your best here to
+point the reader to the actual API.
+
+If your codebase is fairly large or has different sets of APIs, you
+should use the doxygen 'group' tag to keep these APIs together. For
+example, the roscpp documentation has 'libros' group.
+-->
+
+
+*/

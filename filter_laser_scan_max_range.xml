@@ -1,0 +1,13 @@
+<class_libraries>
+
+<library path="lib/libfilter_laser_scan_max_range">
+
+  <class name="filter_laser_scan_max_range/FilterLaserScanMaxRange" type="filter_laser_scan_max_range::FilterLaserScanMaxRange" base_class_type="filters::FilterBase<sensor_msgs::LaserScan>">
+    <description>
+      A filter that takes max range values in a scan and turns them into valid values that are slightly less than max range.
+    </description>
+  </class>
+</library>
+
+</class_libraries>
+               
