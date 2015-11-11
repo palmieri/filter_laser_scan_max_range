@@ -23,6 +23,7 @@ Clone the package into you catkin workspace
 
 ### Usage
 - For a tutorial on how to use a laser filter please refer to http://wiki.ros.org/laser_filters
+
 ### Developers
 Any contribution to the software is welcome. Contact the current developers for any info: 
 * Luigi Palmieri (https://github.com/palmieri, palmieri(at)informatik.uni-freiburg.de)
